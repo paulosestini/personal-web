@@ -32,7 +32,7 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 Start Flask server
 
 ```
-python app.py
+python index.py
 ```
 
 Open browser and navigate to `http://localhost:5000`
