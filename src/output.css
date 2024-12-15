@@ -633,12 +633,36 @@ video {
   margin-left: -3vh;
 }
 
+.ml-\[-3vw\] {
+  margin-left: -3vw;
+}
+
+.ml-\[-3em\] {
+  margin-left: -3em;
+}
+
+.ml-\[-1em\] {
+  margin-left: -1em;
+}
+
+.ml-\[-1rem\] {
+  margin-left: -1rem;
+}
+
 .flex {
   display: flex;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .scale-100 {
@@ -765,6 +789,144 @@ video {
   line-height: 2.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[5vh\] {
+  font-size: 5vh;
+}
+
+.text-\[-7vh\] {
+  font-size: -7vh;
+}
+
+.text-\[7vh\] {
+  font-size: 7vh;
+}
+
+.text-\[3vh\] {
+  font-size: 3vh;
+}
+
+.text-\[6vh\] {
+  font-size: 6vh;
+}
+
+.text-\[2vh\] {
+  font-size: 2vh;
+}
+
+.text-\[2\.5vh\] {
+  font-size: 2.5vh;
+}
+
+.text-\[2\.5vw\] {
+  font-size: 2.5vw;
+}
+
+.text-\[6vw\] {
+  font-size: 6vw;
+}
+
+.text-\[7vw\] {
+  font-size: 7vw;
+}
+
+.text-\[2\.5em\] {
+  font-size: 2.5em;
+}
+
+.text-\[6em\] {
+  font-size: 6em;
+}
+
+.text-\[7em\] {
+  font-size: 7em;
+}
+
+.text-\[0\.1em\] {
+  font-size: 0.1em;
+}
+
+.text-\[0\.5em\] {
+  font-size: 0.5em;
+}
+
+.text-\[2em\] {
+  font-size: 2em;
+}
+
+.text-\[1em\] {
+  font-size: 1em;
+}
+
+.text-\[5em\] {
+  font-size: 5em;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[5rem\] {
+  font-size: 5rem;
+}
+
+.text-\[10rem\] {
+  font-size: 10rem;
+}
+
+.text-\[7rem\] {
+  font-size: 7rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+
+.text-\[5vw\] {
+  font-size: 5vw;
+}
+
+.text-\[1\.5vw\] {
+  font-size: 1.5vw;
+}
+
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+
+.text-\[4vh\] {
+  font-size: 4vh;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -776,6 +938,22 @@ video {
 .text-\[\#E3651D\] {
   --tw-text-opacity: 1;
   color: rgb(227 101 29 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[-\] {
+  color: -;
+}
+
+.text-\[4\] {
+  color: 4;
+}
+
+.text-\[5\] {
+  color: 5;
 }
 
 .underline {
