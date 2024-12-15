@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@2.0.4"
+      integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body
+    class="text-[#E3651D] bg-[#191919] flex flex-col min-h-screen items-center font-raleway"
+  >
+    <nav class="p-4 space-y-4">
+      <div class="flex justify-center space-x-4 items-center">
+        <h1 class="text-3xl font-light animate-spin">◯●</h1>
+        <h1 class="text-5xl font-light">Paulo Sestini</h1>
+        <!-- <h1 class="text-3xl font-light relative animate-ping">◦◉</h1> -->
+        <div class="flex flex-col items-center">
+          <h1 class="text-3xl font-light mb-[-1.5vh] animate-bounce">○</h1>
+          <h1 class="text-3xl font-light mb-[1vh]">■</h1>
+        </div>
+      </div>
+      <div class="container mx-auto flex justify-center items-center">
+        <ul class="flex space-x-8">
+          <li>
+            <button
+              hx-get="/home"
+              hx-target="#content"
+              hx-swap="innerHTML transition:true"
+              hx-trigger="click"
+              class="font-bold relative after:absolute after:bg-[#E3651D] after:h-0.5 after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              hx-get="/about"
+              hx-target="#content"
+              hx-swap="innerHTML transition:true"
+              hx-trigger="click"
+              class="font-bold relative after:absolute after:bg-orange-500 after:h-0.5 after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+            >
+              About
+            </button>
+          </li>
+          <li>
+            <button
+              hx-get="/contact"
+              hx-target="#content"
+              hx-swap="innerHTML transition:true"
+              hx-trigger="click"
+              class="font-bold relative after:absolute after:bg-orange-500 after:h-0.5 after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="text-3xl font-light relative underline">
+      ------------------------------------
+    </h1>
+    <br /><br />
+    <div
+      id="content"
+      class="flex flex-col items-center slide-it"
+      hx-get="/home"
+      hx-trigger="load"
+    ></div>
+  </body>
+</html>
